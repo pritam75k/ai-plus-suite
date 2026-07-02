@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Premium AI logo">
+  <defs>
+    <linearGradient id="g" x1="70" y1="60" x2="440" y2="455" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8BE9D4"/>
+      <stop offset="0.47" stop-color="#7DD3FC"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <radialGradient id="r" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(178 144) rotate(50) scale(325)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#000" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+  <rect x="36" y="36" width="440" height="440" rx="116" fill="#080B18"/>
+  <rect x="54" y="54" width="404" height="404" rx="104" fill="url(#g)" filter="url(#shadow)"/>
+  <rect x="54" y="54" width="404" height="404" rx="104" fill="url(#r)" opacity="0.9"/>
+  <path d="M256 93l28.8 79.8 77.2-35.4-35.4 77.2L406.4 243l-79.8 28.8 35.4 77.2-77.2-35.4L256 393.4l-28.8-79.8-77.2 35.4 35.4-77.2L105.6 243l79.8-28.8-35.4-77.2 77.2 35.4L256 93z" fill="rgba(8,11,24,0.88)"/>
+  <circle cx="256" cy="243" r="52" fill="#F8FBFF" opacity="0.95"/>
+  <path d="M181 354l75-198 75 198h-50l-13-41h-73l-13 41h-51zm28-82h46l-23-73-23 73z" fill="#F8FBFF"/>
+</svg>
